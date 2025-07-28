@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>รวมการบ้านของ นูรวาซินีย์ เจ๊ะหามะ</title>
+    <!-- Tailwind CSS CDN for easy styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8;
+            color: #334155;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            max-width: 900px;
+            width: 100%;
+            margin-top: 40px;
+        }
+        h1, h2 {
+            color: #1e293b;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            background-color: #f8fafc;
+            margin-bottom: 12px;
+            padding: 15px 20px;
+            border-radius: 10px;
+            border: 1px solid #e2e8f0;
+            display: flex;
+            align-items: center;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        li:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+        }
+        a {
+            color: #2563eb;
+            text-decoration: none;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            flex-grow: 1;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .icon {
+            margin-right: 10px;
+            color: #3b82f6;
+        }
+        .section-divider {
+            border-top: 1px solid #e2e8f0;
+            margin: 30px 0;
+        }
+        .button-group a {
+            margin-right: 10px;
+            padding: 12px 20px;
+            border-radius: 10px;
+            color: white;
+            font-weight: bold;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .button-blue {
+            background-color: #2563eb;
+        }
+        .button-blue:hover {
+            background-color: #1d4ed8;
+        }
+        .button-green {
+            background-color: #22c55e;
+        }
+        .button-green:hover {
+            background-color: #16a34a;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-4xl text-center mb-8">รวมการบ้านของ นูรวาซินีย์ เจ๊ะหามะ</h1>
+        <p class="text-lg text-center mb-10 text-gray-600">ยินดีต้อนรับสู่หน้าการรวมการบ้านของผม/ดิฉัน นี่คือรายการการบ้านทั้งหมดที่ได้เรียนรู้และพัฒนา:</p>
+
+        <h2 class="text-2xl mb-4">วิชา: การเขียนโปรแกรมเว็บ</h2>
+        <ul>
+            <li>
+                <a href="https://github.com/nurwasinee2547/web-programming-assignment-1" target="_blank">
+                    <span class="icon">&#128187;</span> การบ้านชิ้นที่ 1: การสร้างหน้าเว็บส่วนตัว
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/nurwasinee2547/web-programming-assignment-2" target="_blank">
+                    <span class="icon">&#128187;</span> การบ้านชิ้นที่ 2: การออกแบบฟอร์มติดต่อ
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/nurwasinee2547/web-programming-final-project" target="_blank">
+                    <span class="icon">&#128187;</span> โปรเจกต์สุดท้าย: เว็บไซต์ E-commerce อย่างง่าย
+                </a>
+            </li>
+        </ul>
+
+        <h2 class="text-2xl mt-8 mb-4">วิชา: โครงสร้างข้อมูลและอัลกอริทึม</h2>
+        <ul>
+            <li>
+                <a href="https://github.com/nurwasinee2547/data-structures-assignment-1" target="_blank">
+                    <span class="icon">&#128218;</span> การบ้านชิ้นที่ 1: การเรียงลำดับข้อมูล
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/nurwasinee2547/data-structures-assignment-2" target="_blank">
+                    <span class="icon">&#128218;</span> การบ้านชิ้นที่ 2: การค้นหาแบบกราฟ
+                </a>
+            </li>
+        </ul>
+
+        <hr class="section-divider">
+
+        <h2 class="text-2xl mb-4">โปรแกรมที่พัฒนา: เครื่องคำนวณ BMI</h2>
+        <p class="text-gray-700 mb-4">
+            โปรแกรมนี้เป็นเครื่องมือคำนวณดัชนีมวลกาย (BMI) เพื่อประเมินความเสี่ยงด้านสุขภาพเบื้องต้นจากน้ำหนักและส่วนสูง
+        </p>
+        <div class="button-group">
+            <a href="https://github.com/nurwasinee2547/bmi-calculator-app" target="_blank" class="button-blue">
+                <span class="icon">&#128187;</span> GitHub Repository
+            </a>
+            <a href="https://nurwasinee2547.github.io/bmi-calculator-app/" target="_blank" class="button-green">
+                <span class="icon">&#128187;</span> เว็บไซต์ (GitHub Pages)
+            </a>
+        </div>
+    </div>
+</body>
+</html>
